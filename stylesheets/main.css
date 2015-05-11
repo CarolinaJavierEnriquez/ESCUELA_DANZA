@@ -5627,10 +5627,10 @@ button.close {
   src: url(../assets/tipografia/OpenSans-CondLight.ttf); }
 @font-face {
   font-family: MuseoSans-dos;
-  src: url(../assets/tipografia/MuseoSans-dos.Otf); }
+  src: url(../assets/tipografia/MuseoSans-dos.otf); }
 @font-face {
   font-family: Lobster;
-  src: url(../assets/tipografia/Lobster.Otf); }
+  src: url(../assets/tipografia/Lobster.otf); }
 .container-fluid {
   padding: 0; }
 
