@@ -5798,17 +5798,29 @@ button {
   width: 100%; }
   .fila-img-profesores .img-profesores {
     padding: 0; }
-    .fila-img-profesores .img-profesores .box1 img {
-      width: 100%; }
-    .fila-img-profesores .img-profesores .box1 .overlay {
-      position: absolute;
-      width: 100%;
-      min-height: 100%;
-      top: 0%;
-      background-color: rgba(13, 13, 13, 0.2); }
-    .fila-img-profesores .img-profesores .box1 .overlay:hover {
-      background-color: rgba(13, 13, 13, 0.54);
-      transition: 0.5s; }
+    .fila-img-profesores .img-profesores .box1 {
+      overflow: hidden;
+      cursor: default;
+      position: relative; }
+      .fila-img-profesores .img-profesores .box1 img {
+        position: relative;
+        width: 100%; }
+
+.view-first img {
+  transition: all 0.2s linear; }
+.view-first .overlay {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0%;
+  background-color: rgba(0, 0, 0, 0.51);
+  transition: all 0.4s ease-in-out; }
+
+.view-first:hover img {
+  transform: scale(1.1); }
+.view-first:hover .overlay {
+  opacity: 1; }
 
 .boton2 {
   position: absolute;
